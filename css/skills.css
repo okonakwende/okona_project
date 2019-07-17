@@ -1,21 +1,18 @@
-/* || General setup */
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 html {
   font-size: 10px;
-  background-color: ##DA21E;
 }
 
-#conteneur-home{
+
+
+
+
+
+#space-home{
   width:100%;
-  background:url("../image/island.jpg")
+  background:url("../image/jakku.jpg")
   fixed 100% no-repeat;
   background-size:cover;
-  padding:159.5px 0px 100px 0px;
+  padding:159px 0px 100px 0px;
   text-alighn:center;
 }
 
@@ -65,7 +62,7 @@ nav, article, aside, footer {
 }
 
 nav {
-  height: 50px;
+  height: 60px;
   background-color: #ffff;
   display: flex;
   margin-bottom: 10px;
@@ -140,11 +137,12 @@ aside li {
 footer {
   margin-top: 10px;
 }
-
+/* img  {
+  border-radius: 50%;
+} */
 
 .Okona {
   width:150px;
-  border-radius: 50%;
 
 }
 .about_me{
@@ -166,4 +164,9 @@ footer {
 }
 * {
   box-sizing: border-box;
+}
+
+.img-column img{
+  width:350px;
+  height:350px;
 }
